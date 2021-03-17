@@ -1,5 +1,8 @@
 import java.util.Scanner;
 
+
+
+
 public class Array {
 	public static int[] calculator(int times) {
 		int[] result = new int[9];
@@ -15,16 +18,7 @@ public class Array {
 		
 	}
 	
-	
-
-	public static void main(String[] args) {
-		for (int i = 2; i < 10; i++) {
-			int[] result = calculator(i);
-			print(result);
-		}
-
-		
-		
+}
 		
 		
 		
@@ -45,6 +39,4 @@ public class Array {
 //			}
 //		
 //		}
-	}
 
-}
