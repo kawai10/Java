@@ -1,4 +1,5 @@
-import java.util.*;
+import java.util.Scanner;
+
 public class calender {
 
 	public static void main(String[] args) {
@@ -9,11 +10,16 @@ public class calender {
 //		System.out.println("15 16 17 18 19 20 21");
 //		System.out.println("22 23 24 25 26 27 28");
 		
+		
+		//입력
 		System.out.println("두 수를 입력하세요.");
 		Scanner sc = new Scanner(System.in);
 		int Number = sc.nextInt();
 		int Number2 = sc.nextInt();
-		System.out.println("두 수의 합은 " + (Number + Number2) + "입니다.");
+		
+		//출력
+		System.out.printf("두 수의 합은 %d입니다.", Number + Number2);
+		sc.close();
 	}
 	
 	
