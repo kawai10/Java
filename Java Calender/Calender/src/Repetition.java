@@ -1,9 +1,10 @@
 import java.util.Scanner;
 
 public class Repetition {
+	
+	private static final int[] MaxOfDays = {31,28,31,30,31,30,31,31,30,31,30,31};
 
 	public static void main(String[] args) {
-		int MaxDays[] = {31,28,31,30,31,30,31,31,30,31,30,31};
 		System.out.println("반복횟수를 입력하세요.");
 		Scanner sc = new Scanner(System.in);
 		int Number = sc.nextInt();
@@ -13,7 +14,7 @@ public class Repetition {
 			
 		}
 		for(int j = 1; j < Number+1; j++) {
-			System.out.printf("%d월은 %d일까지 있습니다.\n", j, MaxDays[j-1]);
+			System.out.printf("%d월은 %d일까지 있습니다.\n", j, MaxOfDays[j-1]);
 		}
 	}
 			
