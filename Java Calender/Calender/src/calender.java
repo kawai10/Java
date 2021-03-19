@@ -2,18 +2,18 @@ import java.util.*;
 public class calender {
 
 	public static void main(String[] args) {
-//		System.out.println("ÀÏ  ¿ù  È­ ¼ö  ¸ñ ±İ  Åä");
+//		System.out.println("ì¼ ì›” í™” ìˆ˜ ëª© ê¸ˆ í† ");
 //		System.out.println("--------------------");
 //		System.out.println(" 1  2  3  4  5  6  7");
 //		System.out.println(" 8  9 10 11 12 13 14");
 //		System.out.println("15 16 17 18 19 20 21");
 //		System.out.println("22 23 24 25 26 27 28");
 		
-		System.out.println("µÎ ¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä.");
+		System.out.println("ë‘ ìˆ˜ë¥¼ ì…ë ¥í•˜ì„¸ìš”.");
 		Scanner sc = new Scanner(System.in);
 		int Number = sc.nextInt();
 		int Number2 = sc.nextInt();
-		System.out.println("µÎ ¼öÀÇ ÇÕÀº " + (Number + Number2) + "ÀÔ´Ï´Ù.");
+		System.out.println("ë‘ ìˆ˜ì˜ í•©ì€ " + (Number + Number2) + "ì…ë‹ˆë‹¤.");
 	}
 	
 	
